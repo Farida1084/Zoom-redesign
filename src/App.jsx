@@ -90,7 +90,7 @@ function App() {
             </p>
           </div>
         </div>
-        <div className=" flex flex-row">
+        <div className=" flex flex-col w-full md:flex-row">
           <div className=" ml-6">
             <h2 className=" font-bold text-xl">
               Powering organizations across
@@ -109,7 +109,7 @@ function App() {
               </h3>
             </div>
           </div>
-          <div className=" grid grid-cols-3 gap-3 font-bold ml-16 hover:text-blue-700 w-auto h-auto">
+          <div className=" grid grid-cols-3 gap-3 font-bold m-4 hover:text-blue-700 w-2/3 ">
             <Card icon={<FaGraduationCap />} title={"EDUCATION"} />
             <Card icon={<BiPurchaseTag />} title={"RETAIL"} />
             <Card
